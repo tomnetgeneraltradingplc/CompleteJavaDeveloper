@@ -1,4 +1,4 @@
-package HelloWorld;
+package InterviewQuestions;
 
 /**
  * Created by Palindrome Tibebu,
