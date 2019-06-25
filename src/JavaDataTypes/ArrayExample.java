@@ -7,6 +7,7 @@ package JavaDataTypes;
 public class ArrayExample {
     public static void main(String[] args) {
         String [] name = {"Thomas","Anne","Smith","Jone"};
+
         for (String str: name){
             System.out.println(str);
         }
