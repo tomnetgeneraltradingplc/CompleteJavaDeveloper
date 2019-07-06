@@ -6,23 +6,21 @@ package InterviewQuestions;
  **/
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println(isWordPalindrome("ReverseArrayWithoutStringMethod"));
-        System.out.println(isWordPalindrome("wow"));
-
+        String str = "hello";
+        String str2 = "wow";
+        System.out.println(isWordPalindrome(str));
+        System.out.println(isWordPalindrome(str2));
     }
-    public static boolean isWordPalindrome(String str){
-        String reverseString="";
-        for (int i=str.length()-1;i>=0;i--){
 
-            reverseString = reverseString + str.charAt(i);
+    public static boolean isWordPalindrome(String str){
+        String reversed="";
+        for (int i=str.length()-1;i>=0;i--){
+            reversed = reversed + str.charAt(i);
         }
         //out put false
-        if (str.equals(reverseString)){
+        if (str.equals(reversed)){
             return true;
         }
         else return false;
     }
-
-
-
 }
